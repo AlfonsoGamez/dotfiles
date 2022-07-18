@@ -24,9 +24,12 @@ Rofi Powermenu
 
 **WM:** [Bspwm](https://github.com/baskerville/bspwm)  
 **Terminal:** [Kitty](https://github.com/kovidgoyal/kitty)  
+**Bar:** [Polybar](https://github.com/polybar/polybar)  
 **Theme:** [Noita](https://github.com/addy-dclxvi/gtk-theme-collections)  
 **Icons:** [Kora](https://www.gnome-look.org/p/1256209/)  
 **Menu:** [Rofi](https://github.com/davatorium/rofi)  
 **Rofi-Theme:** [Themes](https://github.com/adi1090x/rofi)  
+**Font:** [Comic Mono](https://github.com/dtinth/comic-mono-font)  
 **Editor:** [Neovim](https://github.com/neovim/neovim)  
+**File Manager:** Thunar  
 
