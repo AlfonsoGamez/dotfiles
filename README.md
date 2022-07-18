@@ -24,3 +24,5 @@ Rofi Powermenu
 
 **WM:** [Bspwm](https://github.com/baskerville/bspwm)  
 **Terminal:** [Kitty](https://github.com/kovidgoyal/kitty)  
+**Theme:** [Noita](https://github.com/addy-dclxvi/gtk-theme-collections)  
+**Icons:** [Kora](https://www.gnome-look.org/p/1256209/)
