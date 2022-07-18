@@ -30,6 +30,7 @@ Rofi Powermenu
 **Launcher:** [Rofi](https://github.com/davatorium/rofi)   
 **Font:** [Comic Mono](https://github.com/dtinth/comic-mono-font) & [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)  
 **File Manager:** Thunar  
+**Compositor:** [Picom](https://github.com/ibhagwan/picom)  
 
 
 
