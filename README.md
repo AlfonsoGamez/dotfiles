@@ -17,9 +17,3 @@ Rofi Quicklinks
 Rofi Powermenu
 
 ![Rofi_Powermenu](https://user-images.githubusercontent.com/79656705/179429722-0ad359cd-a681-48af-b1bf-d9f99e26eb21.png)
-
-
-Requerimientos:
-
-
-
