@@ -18,8 +18,6 @@ Rofi Powermenu
 
 ![Rofi_Powermenu](https://user-images.githubusercontent.com/79656705/179429722-0ad359cd-a681-48af-b1bf-d9f99e26eb21.png)
 
-
-
 ## Packages
 
 **WM:** [Bspwm](https://github.com/baskerville/bspwm)  
@@ -31,7 +29,6 @@ Rofi Powermenu
 **Font:** [Comic Mono](https://github.com/dtinth/comic-mono-font) & [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)  
 **File Manager:** Thunar  
 **Compositor:** [Picom](https://github.com/ibhagwan/picom)  
-
 
 
 
