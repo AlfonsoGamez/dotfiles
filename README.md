@@ -6,7 +6,7 @@ Arch Linux + Bspwm
 
 Rofi
 
-![Rofi](https://user-images.githubusercontent.com/79656705/179429677-0ca82bdc-5889-470e-94ab-e654d1830ce4.png)
+![Rofi](https://user-images.githubusercontent.com/79656705/179436238-ab1ea4e3-2470-4be3-b2a9-4118f301e099.png)
 
 
 Rofi Quicklinks
