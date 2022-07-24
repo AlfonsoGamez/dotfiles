@@ -1,0 +1,10 @@
+configuration {
+	font:		            "Comic Mono 13";
+   	show-icons:             true;
+   	display-drun: 		    "";
+   	drun-display-format:    "{name}";
+   	disable-history:        false;
+	sidebar-mode: 		    false;
+}
+
+@theme "/usr/share/rofi/themes/blurry.rasi"

@@ -1,0 +1,129 @@
+/*
+ *
+ * Author  : Aditya Shakya
+ * Mail    : adi1090x@gmail.com
+ * Github  : @adi1090x
+ * Twitter : @adi1090x
+ *
+ */
+
+configuration {
+	font:							"Comic Mono 14";
+    show-icons:                     false;
+	icon-theme: 					"Papirus";
+    drun-display-format:            "{name}";
+    disable-history:                false;
+	sidebar-mode: 					false;
+}
+
+@import "../../../styles/colors.rasi"
+
+window {
+    transparency:                   "real";
+    background-color:               @background;
+    text-color:                     @foreground;
+    border-radius:                  0px;
+	width:							100%;
+	height:							100%;
+}
+
+
+prompt {
+    enabled: 						true;
+    padding:                        10px;
+	background-color: 				@background-light;
+	text-color: 					@accent;
+    border:                  		2px 2px 2px 2px;
+    border-radius:                  0px;
+    border-color:                  	@accent;
+}
+
+textbox-prompt-colon {
+	expand: 						false;
+	str: 							"Quick Links";
+	background-color: 				@accent;
+	text-color: 					#00131A;
+    padding:                        12px 10px 0px 10px;
+}
+
+inputbar {
+	children: 						[ textbox-prompt-colon, prompt ];
+    spacing:                        0px;
+    background-color:               #00000000;
+    text-color:                     @foreground;
+    expand:                         false;
+    border:                  		0px;
+    border-radius:                  0px;
+    border-color:                  	@accent;
+    margin:                         0px 0px 0px 0px;
+    padding:                        0px;
+    position:                       center;
+}
+
+
+
+listview {
+    background-color:               #00000000;
+    margin:                         0% 0% 0% 0%;
+    spacing:                        3%;
+    cycle:                          true;
+    dynamic:                        true;
+    layout:                         horizontal;
+}
+
+mainbox {
+    background-color:               @background;
+    children:                       [ inputbar, listview ];
+    spacing:                        5%;
+    padding:                        32.50% 0% 0% 13.25%;
+}
+
+element {
+    background-color:               #00000000;
+    text-color:                     @foreground;
+    orientation:                    horizontal;
+    border-radius:                  0% 0%;
+}
+
+element-text {
+    background-color: 				#00000000;
+    text-color:       				inherit;
+	font:							"Comic Mono 64";
+    expand:                         true;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
+    margin:                         6.5% 4% 6.5% 4%;
+}
+
+element normal.urgent,
+element alternate.urgent {
+    background-color:               @urgent;
+    text-color:                     @foreground;
+    border-radius:                  0.2%;
+}
+
+element normal.active,
+element alternate.active {
+    background-color:               @background-alt;
+    text-color:                     @foreground;
+}
+
+element selected {
+    background-color:               @accent;
+    text-color:                     #00131A;
+    border:                  		0% 0% 0.2% 0%;
+    border-radius:                  3% 1.8%;
+    border-color:                  	@border;
+}
+
+element selected.urgent {
+    background-color:               @urgent;
+    text-color:                     @foreground;
+}
+
+element selected.active {
+    background-color:               @background-alt;
+    color:                          @foreground;
+}
+
+
